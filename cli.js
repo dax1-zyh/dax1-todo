@@ -3,7 +3,7 @@ const {program} = require('commander');
 const api = require('./index.js')
 
 program
-    .option('-x, --xxx', 'option example')
+    .option('-x, --xxxx', 'option example')
 
 program
     .command('add <task...>')
