@@ -10,7 +10,7 @@ program
     .description('add a task')
     .action((x) => {
         const words = x.join(' ')
-        api.add(words).then(() => console.log('添加成功'), () => console.log('添加失败'))
+        api.add(words).then(() => console.log('添加成功'), () => console.log('添加失败'));
     });
 
 program
