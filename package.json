@@ -6,9 +6,11 @@
   "files": [
     "*.js"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "description": "提供了简单的todo-list工具，可以对任务列表进行编辑",
+  "keywords": ["todo list"],
   "dependencies": {
     "commander": "^8.3.0 ",
     "inquirer": "^8.2.0"
